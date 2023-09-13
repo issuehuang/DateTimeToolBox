@@ -16,6 +16,8 @@
 		57B795E32AB1A9C4009DFB51 /* DateTimeToolBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B795E22AB1A9C4009DFB51 /* DateTimeToolBoxTests.swift */; };
 		57B795ED2AB1A9C4009DFB51 /* DateTimeToolBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B795EC2AB1A9C4009DFB51 /* DateTimeToolBoxUITests.swift */; };
 		57B795EF2AB1A9C4009DFB51 /* DateTimeToolBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B795EE2AB1A9C4009DFB51 /* DateTimeToolBoxUITestsLaunchTests.swift */; };
+		57B795FC2AB1ACE0009DFB51 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B795FB2AB1ACE0009DFB51 /* Date+Extension.swift */; };
+		57B795FE2AB1B789009DFB51 /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B795FD2AB1B789009DFB51 /* Zone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		57B795E82AB1A9C4009DFB51 /* DateTimeToolBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTimeToolBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B795EC2AB1A9C4009DFB51 /* DateTimeToolBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeToolBoxUITests.swift; sourceTree = "<group>"; };
 		57B795EE2AB1A9C4009DFB51 /* DateTimeToolBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeToolBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57B795FB2AB1ACE0009DFB51 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		57B795FD2AB1B789009DFB51 /* Zone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		57B795CA2AB1A9C2009DFB51 /* DateTimeToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				57B795FD2AB1B789009DFB51 /* Zone.swift */,
 				57B795CB2AB1A9C2009DFB51 /* AppDelegate.swift */,
 				57B795CD2AB1A9C2009DFB51 /* SceneDelegate.swift */,
 				57B795CF2AB1A9C2009DFB51 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				57B795D42AB1A9C4009DFB51 /* Assets.xcassets */,
 				57B795D62AB1A9C4009DFB51 /* LaunchScreen.storyboard */,
 				57B795D92AB1A9C4009DFB51 /* Info.plist */,
+				57B795FB2AB1ACE0009DFB51 /* Date+Extension.swift */,
 			);
 			path = DateTimeToolBox;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B795D02AB1A9C2009DFB51 /* ViewController.swift in Sources */,
+				57B795FC2AB1ACE0009DFB51 /* Date+Extension.swift in Sources */,
+				57B795FE2AB1B789009DFB51 /* Zone.swift in Sources */,
 				57B795CC2AB1A9C2009DFB51 /* AppDelegate.swift in Sources */,
 				57B795CE2AB1A9C2009DFB51 /* SceneDelegate.swift in Sources */,
 			);
